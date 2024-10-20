@@ -14,7 +14,7 @@ This feedback will be stored for potential use in refining the detection algorit
 Functionality: The user reporting mechanism will be basic, capturing essential details like job ID and user comments.
 
 **Front End:**
-React.js (optional)
+React.js 
 
 **Back End:**
 Node.js: Runtime for JavaScript on the server.
