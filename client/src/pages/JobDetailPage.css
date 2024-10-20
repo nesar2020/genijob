@@ -1,0 +1,146 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.job-details-section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.job-details-container {
+  width: 80%;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  background-color: #e0e0e0;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.left-column,
+.right-column {
+  padding: 10px;
+}
+
+.left-column {
+  line-height: 1.5em !important;
+}
+
+.card {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 3px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.company-info {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.company-info h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.company-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.interactive-elements p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.interactive-elements i {
+  margin-right: 10px;
+  color: #333;
+}
+
+.apply-button button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.apply-button button:hover {
+  background-color: #45a049;
+}
+
+.job-detail-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  line-height: 1.2em;
+  margin-top: 20px;
+}
+
+.job-header h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.job-header p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.job-salary {
+  margin: 20px 0;
+}
+
+.job-salary h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+.section-header{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: block;
+  clear: both;
+}
+
+.job-detail-card ul{
+  list-style-type: none;
+  text-align: left;
+}
+.job-detail-card ul li{
+  margin-bottom: 10px;
+}
+.job-detail-card ul li:last-child{
+  margin-bottom: 0;
+}

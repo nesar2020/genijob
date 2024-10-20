@@ -1,0 +1,104 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+}
+
+.job-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.explore-section {
+  margin-top: 20px;
+}
+
+.explore-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Category Filters */
+.category-filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.categories {
+  display: flex;
+}
+
+
+/* More categories */
+.more-categories {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.more-categories .btn {
+  background-color: #f0e68c;
+  /* Yellow for Logistics */
+  margin-right: 10px;
+}
+
+.more-categories .btn:nth-child(2) {
+  background-color: #add8e6;
+  /* Light blue for Customer support */
+}
+
+.more-categories .btn:nth-child(3) {
+  background-color: #d3a4f6;
+  /* Light purple for Tech */
+}
+
+
+
+/* Job Postings */
+.job-count {
+  margin-bottom: 20px;
+}

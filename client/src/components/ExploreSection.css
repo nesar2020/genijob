@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.search-bar {
+  display: flex;
+  margin: 0 auto;
+  width: 600px;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin: 50px auto;
+}
+
+.search-bar:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.search-bar input[type="text"] {
+  flex:1;
+  border: none;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-bar button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 0 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+.search-bar button:active {
+  background-color: #004080;
+}
+
+/* Optional: Add focus effects to inputs */
+.search-bar input[type="text"]:focus {
+  background-color: #f0f8ff;
+}
+
+#location {
+  border-left: 1px solid #ccc;
+  /* flex-basis: 35% !important; */
+}
+
+#search {
+  /* flex-basis: 65% !important; */
+}
+
+/* Filter Bar */
+.filter-bar {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-bar select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;  
+  border: 1px solid #ccc;
+  
+}
